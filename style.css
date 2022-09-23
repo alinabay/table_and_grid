@@ -1,79 +1,91 @@
-table{
+table {
     background-color: rgb(224, 223, 223);
-    padding:0;
+    padding: 0;
     margin: 0;
     border-collapse: collapse;
     text-align: center;
-    font-family:'Arial';
+    font-family: 'Arial';
     letter-spacing: 0.05em;
-    font-size:large;
+    font-size: large;
     border-radius: 15px;
     overflow: hidden
-    
+
 }
 
-td, th{
+td, th {
     width: 16ch;
     padding: 6px;
     height: 2.3em;
-    
+
 }
 
-.upper{
-    height:150px;
+.upper {
+    height: 150px;
     color: white;
-    
-    
+
+
 }
-.lower{
+
+.lower {
     height: 7ch;
 }
+
 button {
     height: 40px;
     width: 100px;
-    font-size:16px ;
+    font-size: 16px;
     background-color: rgb(209, 208, 208);
-    border:2px solid rgb(97, 97, 97);
+    border: 2px solid rgb(97, 97, 97);
     color: rgb(70, 70, 70);
     font-weight: 600;
-    
+
 }
-button:hover{
+
+button:hover {
     background-color: rgb(151, 151, 151);
 }
 
-.ch1, .ch6, .ch11, .ch16, .ch21, .ch26, .ch31, .ch36 {
+.longline {
     white-space: nowrap;
     text-align: left;
-    padding-inline:2em ;
-    
+    padding-inline: 2em;
+
 }
-.ch1{
+
+.ch1 {
     background-color: rgb(140, 156, 202);
     font-size: larger;
 }
-.ch2{
+
+.ch2 {
     background-color: rgb(114, 135, 190);
 }
-.ch3{
+
+.ch3 {
     background-color: rgb(86, 107, 165);
 }
-.ch4{
+
+.ch4 {
     background-color: rgb(52, 71, 124);
 }
-.ch5{
+
+.ch5 {
     background-color: rgb(28, 41, 75);
 }
-.ch6, .ch8, .ch10, .ch16, .ch18, .ch20, .ch26, .ch28, .ch30, .ch36, .ch38, .ch40 {
+
+.back_darkgray {
     background-color: rgb(199, 199, 199);
 }
-.ch7, .ch9, .ch17, .ch19, .ch27, .ch29{
+
+.back_gray {
     background-color: rgb(221, 221, 221);
 }
-.ch12,.ch14,.ch22,.ch24,.ch32,.ch34{
+
+.back_white {
     background-color: rgb(238, 238, 238);
 }
-.cost{
+
+.cost {
     font-size: 40px;
     margin-bottom: -0.5em;
 }
