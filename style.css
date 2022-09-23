@@ -9,21 +9,17 @@ table {
     font-size: large;
     border-radius: 15px;
     overflow: hidden
-
 }
 
 td, th {
     width: 16ch;
     padding: 6px;
     height: 2.3em;
-
 }
 
 .upper {
     height: 150px;
     color: white;
-
-
 }
 
 .lower {
@@ -38,7 +34,6 @@ button {
     border: 2px solid rgb(97, 97, 97);
     color: rgb(70, 70, 70);
     font-weight: 600;
-
 }
 
 button:hover {
